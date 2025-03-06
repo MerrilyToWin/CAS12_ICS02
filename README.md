@@ -4,28 +4,27 @@ Urban areas face severe traffic congestion due to inefficient fixed-timer traffi
 # Proposed Solution
 The project aims to create intelligent traffic management systems using AI and IoT to reduce congestion and improve street efficiency. The system analyzes real-time traffic data from CCTV cameras to dynamically control the traffic signal. Emergency vehicle detection is included to prioritize ambulances and other important vehicles to quickly pass through intersections. Additionally, the system improves pedestrian safety by optimizing zebra cross-signals and capturing pedestrians in high traffic areas to prevent accidents. Simulation models real traffic conditions and integrates algorithms for traffic optimization of AI drives on a user-friendly monitoring dashboard.
 
-## 🔧 **Implementation Details**  
-### **1️⃣ Vehicle Detection Module**  
+##  **Implementation Details**  
+### Vehicle Detection Module  
 - Uses **YOLOv8** to detect vehicles in live traffic feeds.  
 - Classifies detected vehicles into **cars, bikes, buses, trucks, and rickshaws**.  
 
-### **2️⃣ Signal Switching Algorithm**  
+### Signal Switching Algorithm 
 - Dynamically adjusts **red, yellow, and green signal durations**.  
 - Takes into account:  
   ✅ **Vehicle count per lane**  
   ✅ **Vehicle type (car, bus, etc.)**  
   ✅ **Average vehicle speed**  
 
-### **3️⃣ Simulation Module**  
+### Simulation Module  
 - Built using **[Pygame](https://www.pygame.org/news)** to simulate:  
   ✅ **Traffic signals**  
   ✅ **Vehicle movements**  
   ✅ **Signal timing adjustments**  
  
-
 ---
 
-## 🚀 **Features**  
+##  **Features**  
 ✅ **YOLOv8-Based Vehicle Detection** – Detects vehicles from real-time traffic video feeds.  
 ✅ **LSTM-Based Traffic Prediction** – Forecasts future congestion trends.  
 ✅ **Automated Traffic Signal Control** – Adjusts green light durations dynamically.  
@@ -34,7 +33,7 @@ The project aims to create intelligent traffic management systems using AI and I
 
 ---
 
-## 🛠 **How It Works**  
+##  **How It Works**  
 1. **Vehicle Detection:** YOLOv8 detects vehicles from live video feeds.  
 2. **Traffic Data Processing:** The detected vehicle counts are analyzed.  
 3. **Signal Adjustment:** Green light durations are set based on vehicle density.  
