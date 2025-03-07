@@ -6,7 +6,7 @@ The project aims to create intelligent traffic management systems using AI and I
 
 ##  **Implementation Details**  
 ### Vehicle Detection Module  
-- Uses **YOLOv8** to detect vehicles in live traffic feeds.  
+- Uses **YOLOv5** to detect vehicles in live traffic feeds.  
 - Classifies detected vehicles into **cars, bikes, buses, trucks, and rickshaws**.  
 
 ### Signal Switching Algorithm 
@@ -34,7 +34,7 @@ The project aims to create intelligent traffic management systems using AI and I
 ---
 
 ##  **How It Works**  
-1. **Vehicle Detection:** YOLOv8 detects vehicles from live video feeds.  
+1. **Vehicle Detection:** YOLOv5 detects vehicles from live video feeds.  
 2. **Traffic Data Processing:** The detected vehicle counts are analyzed.  
 3. **Signal Adjustment:** Green light durations are set based on vehicle density.  
 4. **Prediction with LSTM:** Future congestion trends are forecasted.  
